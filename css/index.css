@@ -154,25 +154,21 @@ p {
 
 .container {
 	width: 800px;
-	margin: 0 auto;
+	margin: 30px auto;
 }
 
 header {
 	width: 100%;
-    display: flex;
-    align-items:
-	border: 1px solid red;
-    margin-bottom: 20px;
+	display: flex;
+	margin-bottom: 20px;
 }
 
 header nav {
-	width: 60%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
 	padding: 20px 2%;
 	font-size: 14px;
-	border: 1px solid red;
 }
 
 header nav a {
@@ -227,45 +223,44 @@ header nav a:hover {
 }
 
 .middle-content .boxes .box:nth-child(1) {
-    background: teal;
+	background: teal;
 }
 
 .middle-content .boxes .box:nth-child(2) {
-    background: gold;
+	background: gold;
 }
 
 .middle-content .boxes .box:nth-child(3) {
-    background: cadetblue;
+	background: cadetblue;
 }
 
 .middle-content .boxes .box:nth-child(4) {
-    background: coral;
+	background: coral;
 }
 
 .middle-content .boxes .box:nth-child(5) {
-    background: crimson;
+	background: crimson;
 }
 
 .middle-content .boxes .box:nth-child(6) {
-    background: forestgreen;
+	background: forestgreen;
 }
 
 .middle-content .boxes .box:nth-child(7) {
-    background: darkorchid;
+	background: darkorchid;
 }
 
 .middle-content .boxes .box:nth-child(8) {
-    background: hotpink;
+	background: hotpink;
 }
 
 .middle-content .boxes .box:nth-child(9) {
-    background: indigo;
+	background: indigo;
 }
 
 .middle-content .boxes .box:nth-child(10) {
-    background: dodgerblue;
+	background: dodgerblue;
 }
-
 
 .bottom-content {
 	display: flex;
@@ -298,4 +293,14 @@ footer nav {
 footer nav a {
 	color: white;
 	text-decoration: none;
+}
+
+/* About.html */
+
+.about-middle-content {
+	display: flex;
+}
+
+.about-middle-content .about-card {
+	border-bottom: 1px dotted black;
 }
