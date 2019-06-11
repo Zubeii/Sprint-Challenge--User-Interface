@@ -153,7 +153,7 @@ p {
 }
 
 .container {
-	width: 800px;
+	width: 880px;
 	margin: 30px auto;
 }
 
@@ -179,6 +179,10 @@ header nav a {
 header nav a:hover {
 	text-decoration: underline;
 	color: #b0b0b0;
+}
+
+.header-img {
+	max-width: 10000px;
 }
 
 .top-content {
@@ -296,11 +300,40 @@ footer nav a {
 }
 
 /* About.html */
-
 .about-middle-content {
 	display: flex;
+	flex-wrap: nowrap;
 }
 
 .about-middle-content .about-card {
 	border-bottom: 1px dotted black;
+	padding-bottom: 20px;
+	margin: 20px;
+}
+
+.about-middle-content .about-card h2 {
+	margin-top: 20px;
+}
+
+.about-card button {
+	margin-top: 10px;
+	padding: 5px 10px;
+	border: 1px solid black;
+	background: transparent;
+	cursor: pointer;
+	border-radius: 7px;
+	font-size: 1rem;
+}
+
+.about-card button:hover {
+	color: white;
+	background-color: black;
+}
+
+.about-bottom-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-bottom-content h2 {
 }
